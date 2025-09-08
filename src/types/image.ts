@@ -1,5 +1,5 @@
 // types/image.ts
-export interface ImageData {
+export interface Image {
   url: string;
   alt: string;
   id?: string;

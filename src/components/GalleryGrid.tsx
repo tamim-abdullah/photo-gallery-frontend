@@ -1,9 +1,9 @@
 // components/GalleryGrid.tsx
-import type { ImageData } from '@/types/image';
+import type { Image } from '@/types/image';
 
-export default function GalleryGrid({ images }: { images: ImageData[] }) {
+export default function GalleryGrid({ images }: { images: Image[] }) {
   const columns = 3; // number of columns on desktop
-  const splitImages: ImageData[][] = Array.from({ length: columns }, () => []);
+  const splitImages: Image[][] = Array.from({ length: columns }, () => []);
 
   // distribute images into columns round-robin
   images.forEach((img, idx) => {

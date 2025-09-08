@@ -1,5 +1,5 @@
 // components/ImageCard.tsx
-import type { ImageData } from '@/types/image';
+import type { Image } from '@/types/image';
 
 export default function ImageCard({ url, alt }: ImageData) {
   return (
