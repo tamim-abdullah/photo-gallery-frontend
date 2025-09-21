@@ -11,6 +11,6 @@ body {
 
 /* Optional: Smooth image loading */
 img {
-  display: block;
-  height: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }

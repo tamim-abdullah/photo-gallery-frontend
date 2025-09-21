@@ -26,13 +26,11 @@ export default function HomePage() {
 
   const renderItem = (item: Image, index: number) => {
     return (
-      <div key={item.id || index} className="break-inside-avoid">
-        <img
-          src={item.url}
-          alt={item.alt}
-          className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-        />
-      </div>
+      <img
+        src={item.url}
+        alt={item.alt}
+        className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+      />
     );
   };
 
